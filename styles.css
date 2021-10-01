@@ -1,0 +1,40 @@
+.banner {
+    background: rgb(62, 48, 87);
+    height: 70px;
+    color: lightgrey;
+}
+
+.banner > table {
+    margin-left: 10em;
+}
+
+.barraLateral {
+    min-height: 100vh;
+    width: 10em;
+    margin-right: 20px;
+    background: rgb(64, 94, 140);
+    color: lightskyblue;
+    display: inline-block;
+}
+
+.mainPage {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+body {
+    min-height: 100vh;
+    background:rgb(114, 187, 226);
+}
+
+table{
+    table-layout: fixed;
+    width: 30em;
+}
+
+th, td {
+    border: 1px solid rgb(40, 28, 68);
+    width: 5em;
+    word-wrap: break-word;
+}
